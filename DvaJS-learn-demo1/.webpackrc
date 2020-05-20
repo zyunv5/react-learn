@@ -1,0 +1,9 @@
+{
+    "proxy":{
+        "/apis":{//请求这部分默认设置成target的网址
+            "target":"https://cnodejs.org",
+            "changeOrigin":true,
+            "pathRewrite":{"^/apis":""}
+        }
+    }
+}
